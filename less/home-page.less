@@ -6,8 +6,13 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
-    
+    .header {
+      width: 100%;
+      border-bottom: 2px dashed @navigation-border;
+      margin-bottom: 30px;
+      padding-bottom: 10px;
+    }
+
     .text-content {
       width: 48%;
       padding-right: 1%;
@@ -42,6 +47,8 @@
     width: 75%;
     margin: 0 auto 30px;
 
+   
+
     img {
       border-radius: 10px;
     }
@@ -53,9 +60,16 @@
     display: flex;
     justify-content: space-between;
 
+    .btn {
+      .btn();
+      .align(center, table-cell, middle)
+    } 
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
     }
   }
-}// home
+
+}
+

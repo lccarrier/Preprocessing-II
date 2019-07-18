@@ -12,3 +12,52 @@
 @shark: #212529;
 @eastern-blue: #17A2B8;
 @sandy-beach: #FFEBCD;
+
+
+@mobile: ~"(max-width: 500px)";
+
+.main-nav nav {
+    @media @mobile{
+        display: inline;
+        height: 100px;
+    }
+}
+
+.main-nav nav h1 {
+    @media @mobile{
+        text-align: center;
+        font-size: 32px;
+        margin-top: 20px;
+    }
+}
+
+.main-nav nav a {
+    @media @mobile{
+       margin-top: 20px;
+    }
+}
+
+.nav-list {
+    @media @mobile{
+        display:flex;
+        justify-content: space-between;
+        margin: 0px 30px;
+    }
+}
+
+body .container.home {
+    @media @mobile{
+        width: 450px;
+    }
+}
+
+body .container.home {
+    @media @mobile{
+        width: 450px;
+    }
+}
+
+
+
+
+
